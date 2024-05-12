@@ -11,7 +11,7 @@ function App() {
     <Router>
     <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/Admin_Dashboard' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/course' element={<Coruse/>} />
         <Route path='/report' element={<Report/>} />
