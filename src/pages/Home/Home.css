@@ -2,13 +2,13 @@
   grid-area: main;
   overflow-y: auto;
   padding: 20px;
-  color: rgba(0, 0, 0, 0.87); /* Adjusted text color for light theme */
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .main-title {
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.87); /* Adjusted text color for light theme */
+  color: rgba(0, 0, 0, 0.87); 
 }
 
 .main-cards {
@@ -24,23 +24,23 @@
   justify-content: space-around;
   padding: 8px 15px;
   border-radius: 5px;
-  background-color: #f0f0f0; /* Adjusted background color for light theme */
+  background-color: #f0f0f0;
 }
 
 .card:first-child {
-  background-color: #90caf9; /* Light blue */
+  background-color: #90caf9;
 }
 
 .card:nth-child(2) {
-  background-color: #ffcc80; /* Light orange */
+  background-color: #ffcc80; 
 }
 
 .card:nth-child(3) {
-  background-color: #a5d6a7; /* Light green */
+  background-color: #a5d6a7; 
 }
 
 .card:nth-child(4) {
-  background-color: #ef9a9a; /* Light red */
+  background-color: #ef9a9a;
 }
 
 .card-inner {
