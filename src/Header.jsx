@@ -100,7 +100,7 @@ export default function PersistentDrawerLeft() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open}>
+      <AppBar position="fixed" open={open} sx={{ backgroundColor: '#3f51b5' }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -112,7 +112,7 @@ export default function PersistentDrawerLeft() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            PS PORTAL
+            ADMIN PORTAL
           </Typography>
         </Toolbar>
       </AppBar>
@@ -142,7 +142,7 @@ export default function PersistentDrawerLeft() {
         <List>
           {[
             { text: 'Dashboard', icon: <SpaceDashboardIcon />, path: './home' },
-            { text: 'My Courses', icon: <MenuBookIcon />, path: './course' },
+            { text: 'Courses', icon: <MenuBookIcon />, path: './course' },
             { text: 'Report', icon: <TrendingUpIcon />, path: './report' },
           ].map((item, index) => (
             <ListItem
